@@ -1,0 +1,16 @@
+@import 'mixins';
+
+.map-wrapper {
+	@include flex(20px);
+
+ .map-header {
+	@include flex(20px, row);
+ }
+
+ .map {
+	width: 94vw;
+	height: 90vh;
+	background-color: var(--element);
+	border-radius: $corner;
+ }
+}
