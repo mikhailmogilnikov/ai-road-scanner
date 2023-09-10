@@ -4,12 +4,15 @@
 	@include flex(20px);
 
  .map-header {
-	@include flex(20px, row);
+	@include flex(10px);
  }
 
  .map {
+	@include flex(0px, row, center, center);
+	@extend %element-shadow;
+
 	width: 94vw;
-	height: 90vh;
+	height: 84vh;
 	background-color: var(--element);
 	border-radius: $corner;
  }

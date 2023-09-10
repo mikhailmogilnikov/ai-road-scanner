@@ -9,7 +9,7 @@ const Algorythm = () => {
 				<AlgoItem
 					num='1'
 					name='Получение данных изображения'
-					desc='Фиксация ведется с камер, датчиков и LiDaR.'
+					desc='Фиксация ведется с камер, датчиков и LiDAR.'
 				/>
 				<AlgoItem
 					num='2'
