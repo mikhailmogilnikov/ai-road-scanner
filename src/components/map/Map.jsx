@@ -1,4 +1,4 @@
-import { Clock } from '@phosphor-icons/react'
+import { CircleNotch, Clock } from '@phosphor-icons/react'
 import '../../styles/map.scss'
 
 const Map = () => {
@@ -11,7 +11,7 @@ const Map = () => {
 				</div>
 
 				<div className='map'>
-					<Clock weight='bold' className='icon-big low-opacity'/>
+					<CircleNotch weight='bold' className='icon-big loader low-opacity'/>
 				</div>
 			</div>
 		</div>
